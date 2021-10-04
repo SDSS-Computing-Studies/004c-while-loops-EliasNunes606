@@ -29,4 +29,22 @@ Enter username: admin
 Enter password: 1234
 Access denied
 Too many failed attempts. Access denied.
+
+
+while <condition>:          # condition is the conditional statement when you want the program to keep going
+    commands
+
+
+while True:
+    commands
+    if <condition>:         #condtion when you want to break out
+        break
 """
+while True:
+    username = (input("Enter your username:"))
+    password = (input("Enter your username:"))
+    if username != "admin":
+      if password != "12345":
+          print("Acess granted")
+
+    
